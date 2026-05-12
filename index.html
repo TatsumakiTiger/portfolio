@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-<meta charset="UTF-8">
-<title>Portfolio</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leon "Neon" Kowalski - Portfolio</title>
+    <style>
+        body { font-family: 'Courier New', Courier, monospace; background-color: #121212; color: #00ffcc; margin: 0; padding: 0; }
+        header { background-color: #1a1a1a; padding: 20px; text-align: center; border-bottom: 2px solid #ff00ff; }
+        nav a { color: #ff00ff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        nav a:hover { color: #00ffcc; }
+        section { padding: 40px; max-width: 800px; margin: auto; }
+    </style>
 </head>
 <body>
-<header><h1>Moja Wizytówka - Portfolio</h1></header>
-<main>Moja wizytówka...</main>
+
+    <header>
+        <h1>Leon "Neon" Kowalski</h1>
+        <nav>
+            <a href="#omnie">O mnie</a>
+            <a href="#skille">Umiejętności</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    </header>
+    <section id="omnie">
+        <h2>O mnie</h2>
+        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=500&auto=format&fit=crop" alt="Leon Neon" style="width: 200px; border-radius: 50%; border: 3px solid #ff00ff; float: left; margin-right: 20px;">
+        <p>Cześć! Jestem Leon. Kiedyś hakowałem tostery, żeby robiły lepsze grzanki, dziś tworzę strony internetowe, które świecą w ciemności. Uwielbiam neonowe kolory, składnie w JavaScript i zapach przegrzanego procesora o poranku.</p>
+        <div style="clear: both;"></div>
+    </section>
+    <section id="skille">
+        <h2>Moje Umiejętności</h2>
+        <ul>
+            <li>HTML5 / CSS3 (Stylizowanie na lata 80.)</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Git & GitHub (Właśnie robię Pull Requesty!)</li>
+            <li>Przetrwanie na samej kawie i pizzy</li>
+        </ul>
+    </section>
 </body>
+<footer id="kontakt" style="background-color: #1a1a1a; padding: 20px; text-align: center; border-top: 2px solid #ff00ff; margin-top: 40px;">
+        <h2>Złapmy się w sieci!</h2>
+        <p>Email: neon.leon@cybermail.com</p>
+        <p>&copy; 2024 Leon "Neon" Kowalski. All rights reserved.</p>
+    </footer>
 </html>
